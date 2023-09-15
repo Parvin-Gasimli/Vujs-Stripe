@@ -3,7 +3,7 @@
         <div id="ItemPage" class="mt-4 max-w-[1200px] mx-auto px-2">
             <div class="md:flex gap-4 justify-center items-center mr-auto w-full">
                 <div class="md:w-[100%] mr-auto">
-                    <img class="rounded-lg object-fit detailimg" src="https://picsum.photos/200/300" />
+                    <img class="rounded-lg object-fit detailimg" v-if="currentImage" :src="currentImage" />
 
                     <div v-if="images[0] !== ''" class="flex items-center gap-[10px] justify-center mt-2">
                         <div v-for="image in images">
