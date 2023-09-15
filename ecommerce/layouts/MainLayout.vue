@@ -63,10 +63,9 @@
             </ul>
         </div>
         <div id="MainHeader" class="flex items-center w-full bg-white">
-            <div class="flex lg:justify-start justify-between gap-10 max-w-[1150px] w-full px-3 py-5 mx-auto">
+            <div class="flex lg:justify-start items-center justify-between gap-10 max-w-[1150px] w-full px-3 py-5 mx-auto">
                 <NuxtLink to="/" class="min-w-[170px]">
-                    <img height="40" width="170"
-                        src="https://www.simicart.com/blog/wp-content/uploads/eCommerce-logo-1.jpg">
+                    <img height="70" width="80" src="https://www.simicart.com/blog/wp-content/uploads/eCommerce-logo-1.jpg">
                 </NuxtLink>
 
                 <div class="max-w-[700px] w-full md:block hidden">
@@ -99,19 +98,10 @@
                         </div>
                     </div>
                 </div>
-                <!-- <Loading /> -->
-
-
-
-
-
             </div>
         </div>
     </div>
-
-    <!-- <Loading v-if="userStore.isLoading" /> -->
-
-    <div class="lg:pt-[150px] md:pt-[130px] pt-[80px]" />
+    <!-- <div class="lg:pt-[150px] md:pt-[130px] pt-[80px]" /> -->
 </template>
 
 <script setup>
